@@ -1,0 +1,21 @@
+= Rust
+
+Examples From RBE, https://doc.rust-lang.org/rust-by-example/index.html[Rust By Example]
+
+== Pre-requisite
+
+* Install Rust
+
+https://www.rust-lang.org/tools/install
+
+== Running an example
+
+* Each example is accompanied by a binary (an executable file).
+* To run the `hello` example, type `hello/hello` at the root of this project.
+
+== Updating an example
+
+* Navigate to the directory of an example, `cd hello`
+* Edit the corresponding rust file. For example, edit `hello.rs`
+* Regenerate the binary using rust compiler. `rustc hello.rs`. This will re-generate the `hello` binary.
+* Run the binary, `./hello`
