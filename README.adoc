@@ -1,4 +1,4 @@
-= Rust
+= Rust By Example
 
 Examples From RBE, https://doc.rust-lang.org/rust-by-example/index.html[Rust By Example]
 
