@@ -12,4 +12,8 @@ fn main() {
 
      /* Enclosed Comment - Example 3 */
 
+     let x = 5 + /* 90 + */ 5;
+
+     println!("x={}", x);
+
 }
