@@ -36,8 +36,8 @@ fn main() {
 
 
     // Rust even checks to make sure the correct number of arguments are used.
-    println!("My name is {0}, {1} {0}", "Bond");
-    // FIXME ^ Add the missing argument: "James"
+    println!("My name is {0}, {1} {0}", "Bond", "James");
+    // FIXME ^ Add the missing argument: "James" -- EDIT: Added `James`
 
     // Only types that implement fmt::Display can be formatted with `{}`. User-
     // defined types do not implement fmt::Display by default.
@@ -53,6 +53,8 @@ fn main() {
     // For Rust 1.58 and above, you can directly capture the argument from a
     // surrounding variable. Just like the above, this will output
     // "    1", 4 white spaces and a "1".
+    // If you get an `there is no argument named `width`` error, you need to update
+    // your rust version (for example, with `rustup update`).
     let number: f64 = 1.0;
     let width: usize = 5;
     println!("{number:>width$}");
