@@ -1,6 +1,4 @@
-= Rust By Example
-
-Examples From RBE, https://doc.rust-lang.org/rust-by-example/index.html[Rust By Example]
+= Learning Rust
 
 == Pre-requisite
 
@@ -8,14 +6,14 @@ Examples From RBE, https://doc.rust-lang.org/rust-by-example/index.html[Rust By 
 
 https://www.rust-lang.org/tools/install
 
-== Running an example
+== The Rust Programming Language
 
-* Each example is accompanied by a binary (an executable file).
-* To run the `hello` example, type `hello/hello` at the root of this project.
+link:rust-lang/README.adoc[View Directory for The Rust Programming Language]
 
-== Updating an example
+== Rustlings
 
-* Navigate to the directory of an example, `cd hello`
-* Edit the corresponding rust file. For example, edit `hello.rs`
-* Regenerate the binary using rust compiler. `rustc hello.rs`. This will re-generate the `hello` binary.
-* Run the binary, `./hello`
+link:rustlings/README.adoc[View Directory for Rustlings]
+
+== Rust By Example
+
+link:rust-by-example/README.adoc[View Directory for Rust By Example]
