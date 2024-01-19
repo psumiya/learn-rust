@@ -6,6 +6,16 @@
 
 https://www.rust-lang.org/tools/install
 
+* Compile
+
+Use a script at the root of the project, passing in the rust file name.
+
+`./rustc.sh rust-by-example/primitives/literals.rs`
+
+This will generate an executable with the same name as the rust file name, in the `bin` directory.
+
+This can now be executed as `bin/literals`.
+
 == The Rust Programming Language
 
 link:rust-lang/README.adoc[View Directory for The Rust Programming Language]
