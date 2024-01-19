@@ -6,7 +6,7 @@
 
 https://www.rust-lang.org/tools/install
 
-* Compile
+* Compile and Run
 
 Use a script at the root of the project, passing in the rust file name.
 
