@@ -10,12 +10,10 @@ https://www.rust-lang.org/tools/install
 
 == Running an example
 
-* Each example is accompanied by a binary (an executable file).
-* To run the `hello` example, type `hello/hello` at the root of this project.
+* See README at the root of the project.
 
 == Updating an example
 
 * Navigate to the directory of an example, `cd hello`
 * Edit the corresponding rust file. For example, edit `hello.rs`
-* Generate a binary using rust compiler. `rustc hello.rs`. This will generate a `hello` binary.
-* Run the binary, `./hello`
+* Generate a binary using instructions on root README.
