@@ -26,4 +26,4 @@ link:rustlings/README.adoc[View Directory for Rustlings]
 
 == Rust By Example
 
-link:rust-by-example/README.adoc[View Directory for Rust By Example]
+link:rbe/README.adoc[View Directory for Rust By Example]
